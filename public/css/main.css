@@ -1,0 +1,59 @@
+.headerButton{
+    padding: 30px 85px;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #00ad00;
+    margin: 30px 40px;
+    color: #000000;
+}
+
+.buttonWrapper{
+    margin: 100px 0px;
+}
+
+.contentWrapper{
+    margin: 0px;
+}
+
+.content{
+    width: fit-content;
+    min-height: 300px;
+    min-width: 860px;
+    margin: 0px 40px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #00ad00;
+    position: relative;
+}
+
+.homeInfo{
+    width: 100%;
+    color: black;
+    text-align: center;
+    top: 50%;
+    position: absolute;
+}
+
+.table{
+    margin: 5px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.table > tr > td{
+    border: 1px solid;
+    margin: 0;
+}
+.table > tr > td:nth-child(2){
+    width: 610px;
+}
+.table > tr > td:nth-child(3){
+    width: 85px;
+}
+.table > tr > td:nth-child(4), .table > tr > td:nth-child(5) {
+    text-align: center;
+}
+.table > tr:nth-child(1){
+    text-align: center;
+}
