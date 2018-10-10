@@ -5,7 +5,7 @@ const app = express();
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
-app.listen(8080, "127.0.0.1", (err) => {
+app.listen(1337, (err) => {
     if (err){
         console.log(err);
     } else {
